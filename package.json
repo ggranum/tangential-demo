@@ -1,13 +1,13 @@
 {
-  "name": "tangential",
-  "description": "Angular + Firebase bootstrap project / widget library, complete with authorization.",
-  "homepage": "https://github.com/ggranum/tangential#readme",
+  "name": "tangential-demo",
+  "description": "Angular + Firebase bootstrap project and widget library, complete with authorization and analytics",
+  "homepage": "https://github.com/ggranum/tangential-demo#readme",
   "version": "0.1.1-beta.6",
   "license": "GPL-3.0",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ggranum/tangential.git"
+    "url": "https://github.com/ggranum/tangential-demo.git"
   },
   "contributors": [
     {
@@ -16,16 +16,22 @@
     }
   ],
   "keywords": [
+    "AdWords",
     "Angular",
     "Angular2",
-    "components",
-    "widgets",
-    "authentication",
-    "auth",
-    "firebase"
+    "Analytics",
+    "Auth",
+    "Authentication",
+    "Bootstrap",
+    "Components",
+    "Component Library",
+    "Firebase",
+    "IAM",
+    "Widgets",
+    "Widgets Library"
   ],
   "bugs": {
-    "url": "https://github.com/ggranum/tangential/issues"
+    "url": "https://github.com/ggranum/tangential-demo/issues"
   },
   "engines": {
     "node": ">= 7"
@@ -58,6 +64,15 @@
     "@angular/platform-browser": "4.0.3",
     "@angular/platform-browser-dynamic": "4.0.3",
     "@angular/router": "4.0.3",
+    "@tangential/analytics": "0.1.1-beta.6",
+    "@tangential/admin-console": "0.1.1-beta.6",
+    "@tangential/authorization-service": "0.1.1-beta.6",
+    "@tangential/core": "0.1.1-beta.6",
+    "@tangential/configurable-input-widgets": "0.1.1-beta.6",
+    "@tangential/input-widgets": "0.1.1-beta.6",
+    "@tangential/media-types": "0.1.1-beta.6",
+    "@tangential/firebase-util": "0.1.1-beta.6",
+    "@tangential/components": "0.1.1-beta.6",
     "asciidoctor.js": "^1.5.6-preview.1",
     "core-js": "^2.4.1",
     "firebase": "3.7.5",
