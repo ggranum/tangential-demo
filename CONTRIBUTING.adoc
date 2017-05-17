@@ -1,3 +1,11 @@
+= Contributing
+
+Thank you for considering a code submission. Your work makes Tangential better for everyone.
+
+We don't do a lot of work in the Tangential-Demo repository directly - generally what lands here is pulled in by an upstream merge of the https://github.com/ggranum/tangential[Tangential] project.
+
+There are occasional doc changes, and a small number of 'demo-specific' file paths that do get updated only in this repository. When in doubt, please just ask, we'll get it sorted out!
+
 == Commit Message Guidelines
 
 We borrow from the Angular project's guidelines https://github.com/angular/angular/blob/master/CONTRIBUTING.md[here]. Our commit guidelines are pedantic so that we can use the git log to generate the change log.

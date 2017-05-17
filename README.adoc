@@ -53,14 +53,15 @@ Aria, I18N and I10N are the 'only' remaining key features we wish to implement b
 Bootstraps and demonstration projects are notorious for taking shortcuts. We don't. If you're new to developing against a document oriented database you will find real code here, not another instant messaging client. Tangential tackles the real problems inherent in attempting to provide security and permissions-based access against real data. Decisions must be made regarding request counts versus permissions fidelity. Do I add a CAN_VIEW_USER_EMAIL permission, so that I can create a 'Demo Administrator' account? If we do, then we must also reorganize our data such that user email addresses are stored in the UserAuthData as a reference. If we don't, then we'd have to request each field of the UserDocument in a separate request, or route the request through a Firebase Function.
 
 == Getting Started
-
-For a detailed, step-by-step guide, see link:GETTING_STARTED.BOOTSTRAP.adoc[].
+[[getting-started]]
+For a detailed, step-by-step guide, see link:GETTING_STARTED.adoc[].
 
 === High level overview - the experts guide
 
 This is something of a checklist version, but it should give you an idea of how quickly you can set up and deploy a new Tangential project. It assumes you have a fairly robust set of development tools installed or aliased - see the link:GETTING_STARTED.BOOTSTRAP.adoc[detailed guide] if one of these steps fails or doesn't make sense!
 
 .  Clone `tangential-demo` into your (future) project directory (use snake-case: e.g.g your-project-name): `git clone https://github.com/ggranum/tangential.git`
+. Optional: delete the .git directory, then re-init git and commit it to your own repository.
 .  Go create two firebase projects https://console.firebase.google.com[here]: Name them '${your-project-name}-dev' and '${your-project-name}-prod'.
 .. Take note of your Firebase Project Identifiers. These might differ from your project names.
 .. Enable email/password and anonymous authentication https://console.firebase.google.com/project/firebase-project-id/authentication/providers[here]. (Look at the URL, replace as needed)
