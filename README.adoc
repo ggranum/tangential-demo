@@ -58,7 +58,7 @@ For a detailed, step-by-step guide, see link:GETTING_STARTED.adoc[].
 
 === High level overview - the experts guide
 
-This is something of a checklist version, but it should give you an idea of how quickly you can set up and deploy a new Tangential project. It assumes you have a fairly robust set of development tools installed or aliased - see the link:GETTING_STARTED.BOOTSTRAP.adoc[detailed guide] if one of these steps fails or doesn't make sense!
+This is something of a checklist version, but it should give you an idea of how quickly you can set up and deploy a new Tangential project. It assumes you have a fairly robust set of development tools installed or aliased - see the link:GETTING_STARTED.adoc[detailed guide] if one of these steps fails or doesn't make sense!
 
 .  Clone `tangential-demo` into your (future) project directory (use snake-case: e.g.g your-project-name): `git clone https://github.com/ggranum/tangential.git`
 . Optional: delete the .git directory, then re-init git and commit it to your own repository.
